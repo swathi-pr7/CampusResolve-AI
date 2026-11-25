@@ -1,0 +1,9 @@
+.gemini_key
+.env
+.env.*
+.streamlit/secrets.toml
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.zip

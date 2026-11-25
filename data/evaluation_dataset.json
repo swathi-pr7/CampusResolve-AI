@@ -1,0 +1,502 @@
+[
+  {
+    "query": "attendance shortage",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "my attendance is incorrect",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "medical leave for missed classes",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "absence from lectures",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "attendance eligibility",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "correct my attendance record",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "missed classes due to illness",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "faculty attendance review",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "class attendance percentage",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "attendance appeal",
+    "expected_category": "Attendance",
+    "expected_source": "attendance.txt"
+  },
+  {
+    "query": "revaluation of marks",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "missing hall ticket",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "supplementary examination",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "incorrect exam results",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "exam marks correction",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "examination registration",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "revaluation application deadline",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "exam result dispute",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "hall ticket problem",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "supplementary exam application",
+    "expected_category": "Examination",
+    "expected_source": "examination.txt"
+  },
+  {
+    "query": "scholarship application",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "financial aid eligibility",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "income certificate for scholarship",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "scholarship deadline",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "scholarship documents",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "scholarship scheme",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "apply for financial aid",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "scholarship verification",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "scholarship eligibility requirements",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "student scholarship support",
+    "expected_category": "Scholarship",
+    "expected_source": "scholarship.txt"
+  },
+  {
+    "query": "internship NOC",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "no objection certificate",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "internship approval",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "internship offer letter",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "industrial training approval",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "internship duration approval",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "company internship details",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "internship coordinator",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "departmental internship approval",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "internship documentation",
+    "expected_category": "Internship",
+    "expected_source": "internship.txt"
+  },
+  {
+    "query": "duplicate fee payment",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "fee refund",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "payment failure",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "missing fee receipt",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "fees paid twice",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "transaction reference for fees",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "payment reconciliation",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "finance office refund",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "student portal payment status",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "incorrect fee payment",
+    "expected_category": "Fees",
+    "expected_source": "fees.txt"
+  },
+  {
+    "query": "submit grievance",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "unresolved complaint",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "grievance escalation",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "formal complaint submission",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "grievance acknowledgement",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "appeal unresolved issue",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "complaint evidence",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "student grievance cell",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "requested resolution complaint",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "official escalation process",
+    "expected_category": "Grievance",
+    "expected_source": "grievance.txt"
+  },
+  {
+    "query": "campus recruitment registration",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "placement eligibility",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "placement cell",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "recruitment drive deadline",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "company eligibility criteria",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "placement registration correction",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "resume for placement",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "job eligibility campus",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "recruitment notice",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "campus placement registration",
+    "expected_category": "Placement",
+    "expected_source": "placement.txt"
+  },
+  {
+    "query": "campus harassment",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "bullying on campus",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "discrimination complaint",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "student counselling",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "mental health support",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "campus safety",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "confidential welfare support",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "harassment reporting",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "campus security",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "student welfare assistance",
+    "expected_category": "Student Welfare",
+    "expected_source": "student_welfare.txt"
+  },
+  {
+    "query": "library book renewal",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "overdue library fine",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "lost library book",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "library account",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "book due date",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "incorrect library fine",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "library renewal request",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "library desk",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "lost book charges",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "library system renewal",
+    "expected_category": "Library",
+    "expected_source": "library.txt"
+  },
+  {
+    "query": "bonafide certificate",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  },
+  {
+    "query": "academic transcript",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  },
+  {
+    "query": "name correction in records",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  },
+  {
+    "query": "degree certificate",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  },
+  {
+    "query": "academic records request",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  },
+  {
+    "query": "student transcript application",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  },
+  {
+    "query": "academic administration",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  },
+  {
+    "query": "certificate request",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  },
+  {
+    "query": "correct academic record",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  },
+  {
+    "query": "academic document acknowledgement",
+    "expected_category": "Academic Records",
+    "expected_source": "academic_records.txt"
+  }
+]
